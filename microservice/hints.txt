@@ -1,0 +1,7 @@
+sudo systemctl start dump-danmu.service //run danmuio.py to get danmu from website
+
+sudo systemctl start danmu-rest.service //open port 8000 for rest service
+
+sudo systemctl start dummyDanmu.service //generate dummy danmu for recent topic api, run dummy.sh
+
+sudo systemctl start dummyChatWs.service //currently run printDummy.sh to get dummy websocket danmu, normally will run ./danmuio.py
